@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: rgb(232, 151, 181);
+}
+
+header{
+    min-height: 10vh;
+    background-color: rgb(20, 19, 19);
+    /* border-radius: 5rem; */
+}
+
+main{
+    min-height: 80vh;
+    background: rgb(232, 151, 181);
+    
+}
+
+footer{
+    min-height: 10vh;
+    background-color: rgb(20, 19, 19);
+    transition: all;
+    transition-duration: 100ms;
+    /* border-radius: 5rem; */
+}
+
+h1{
+    display: inline-block;
+    font-size: 30px;
+    width: 40rem;
+    position: relative;
+    bottom: 5rem;
+    left: 15rem;
+    color: white;
+}
+
+.butnav{
+    border-radius: 1rem;
+    border: 2px solid white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    background: rgb(232, 151, 181);
+    color: white;
+    transition: all;
+    transition-duration: 100ms;
+}
+
+.butnav:hover {
+    cursor: pointer;
+    background-color: rgb(255, 60, 209);
+    border: 1px solid;
+    font-size: 18px;
+}
+
+
+.but1{
+    position: relative;
+    bottom: 11rem;
+    left: 2rem;
+}
+
+.but2{
+    position: relative;
+    bottom: 8rem;
+    right: 9.5rem;
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+}
+.but3{
+    position: relative;
+    bottom: 5rem; 
+    right: 21rem;
+    padding-left: 2.6rem;
+    padding-right: 2.6rem;
+}
+
+.but4{
+    position: relative;
+    bottom: 2rem; 
+    right: 32.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.image-profile{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 6rem;
+}
+
+h2, p, h3{
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+    font-weight: bolder
+}
+
+h5{
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 0.5rem;
+}
+
+.email{
+    color: black;
+    cursor: pointer;
+    background-color: rgb(255, 60, 209);
+    border: 1px solid;
+    border-radius: 1rem;
+    font-size: 20px;
+    padding: 5px;
+
+}
